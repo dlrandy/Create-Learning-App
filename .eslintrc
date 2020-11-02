@@ -8,6 +8,7 @@
     },
     "project": "./tsconfig.json"
   },
+  "ignorePatterns": ["/*.*"],
   "plugins": ["@typescript-eslint/eslint-plugin"],
   "extends": [
     "eslint:recommended",
