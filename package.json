@@ -1,0 +1,69 @@
+{
+  "name": "Create-Learning-App",
+  "version": "0.0.1",
+  "description": "just for exercising",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlrandy/Create-Learning-App.git"
+  },
+  "keywords": [],
+  "author": "dlrandy <ziyucrc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlrandy/Create-Learning-App/issues"
+  },
+  "homepage": "https://github.com/dlrandy/Create-Learning-App#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^5.3.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "fork-ts-checker-webpack-plugin": "^5.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "preval.macro": "^5.0.0",
+    "resolve": "^1.18.1",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.3.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.1.0",
+    "@reach/tabs": "^0.11.2",
+    "@reach/tooltip": "^0.11.2",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "chalk": "^4.1.0",
+    "codegen.macro": "^4.0.0",
+    "emotion-theming": "^10.0.27",
+    "facepaint": "^1.2.1",
+    "focus-visible": "^5.2.0",
+    "glob": "^7.1.6",
+    "history": "^5.0.0",
+    "mdx-loader": "^3.0.2",
+    "msw": "^0.21.3",
+    "node-match-path": "^0.5.1",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-error-boundary": "^3.0.2",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^5.2.0",
+    "replace-in-file": "^6.1.0",
+    "whatwg-fetch": "^3.4.1"
+  }
+}
